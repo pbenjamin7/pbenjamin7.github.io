@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&family=Rubik:wght@500&display=swap');
+
+.index_title {
+    font-family: 'Rubik Distressed', cursive;
+    color: purple; 
+    animation: title_fade 2s both;
+}
+.assignment_list {
+    font-size: 20px; 
+    font-family: 'Rubik', sans-serif;
+    line-height: 30px;
+    animation: assignments 3s 2s both;
+}
+.assignment_list a:hover {
+    color: black;
+}
+
+.assignment_list a{
+    color: red;
+    text-decoration: none;
+}
+
+.assignment_list a:visited {
+    color: blue;
+}
+
+.rick_roll {
+    animation: rickroll 4s 2s both; 
+}
+
+.rick_roll a {
+    border: 3px solid;
+    border-radius: 15px; 
+    padding: 5px; 
+
+}
+.rick_roll a:hover {
+    color: black;
+}
+.javascript_button {
+    border: 3px solid;
+    border-radius: 15px;
+    padding: 3px;
+    cursor: pointer;
+
+}
+@keyframes title_fade {
+    0% {
+        opacity: 0;
+        margin-top: 20%;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+@keyframes assignments {
+    0% {
+        opacity: 0;
+        margin-top: 20%;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+@keyframes rickroll {
+    0% {
+        opacity: 0;
+        margin-top: 20%;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}

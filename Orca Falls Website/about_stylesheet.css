@@ -1,0 +1,169 @@
+.row1 {
+    margin-top: 120px;
+}
+.logo {
+    height: 100px;
+    margin: 0;
+    margin-top: -100px;
+    margin-left: -50px;
+}
+.topnav {
+    font-family: 'Rubik', sans-serif;
+}
+.topnav a {
+    float: right; 
+    text-align: center; 
+    padding: 5px 10px;
+    margin-right: .5%;
+    margin-top: .5%;
+}
+a:hover {
+    color: purple; 
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.piano {
+    padding: 20px;
+    animation: piano 1.5s .5s both;
+}
+
+.smallme {
+    animation: smallme 1.5s 1.2s both;
+}
+.ocean1 {
+    animation: misery 1.5s 1s both;
+}
+.misery {
+    padding: 20px;
+    animation: misery 1.5s .7s both;
+}
+.abouthead {
+    display: flex;
+    margin-left: 60em;
+    margin-top: -50em;
+    font-family: 'Rubik', sans-serif;
+    animation: head 3s 2s both;
+}
+.paragraph {
+    display: flex;
+    margin-left: 52em;
+    margin-top: -50em;
+    font-family: 'Rubik', sans-serif;
+    animation: paragraph 3s 2s both;
+}
+.container1 { 
+    width: 750px; 
+    height: 50px;
+    margin-left: 52%;
+    margin-top: -52em;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    animation: container1 2s 2s both;
+    }
+
+.container { 
+    width: 50em; 
+    height: 50em;
+    justify-content: center;
+    line-height: 1.5;
+    font-family: 'Rubik', sans-serif;
+    animation: container 2s 2s both;
+    }
+
+.outer-container{
+    display: flex;  
+    flex-direction: row;   
+    margin-left: 52%;
+}
+footer {
+    display: flex;
+    position: absolute;
+    margin-left: -.5em;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    justify-content: center; 
+}
+.copyright {
+    position: absolute; 
+    right: 0;
+    margin-right: 10px; 
+    color: white;
+    font-size: 20px;
+}
+.icons {
+    padding: 25px;
+    color: white;
+    margin-right: 10px;
+}
+@keyframes smallme {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes misery {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes piano {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes ocean_1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes paragraph {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes head {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes container1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes container {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
